@@ -1,0 +1,28 @@
+#container {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+  
+#main-content {
+// margin-top: 80px;
+flex: 1;
+}
+
+
+#header-content {
+display: flex;
+}
+
+.navbar {
+    background: #333333;
+    height: 65px;
+    width: 100%;
+}
+
+.footer {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    background-color: #333333;
+}

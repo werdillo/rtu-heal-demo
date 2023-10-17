@@ -1,0 +1,33 @@
+.warning-modal {
+    margin: 45px 0;
+}
+
+.modal-title {
+    text-align: center;
+}
+
+.modal {
+    border: 0;
+}
+
+.buttons-wrapper {
+    display: flex;
+    justify-content: center;
+    gap:20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    .-button {
+        border-radius: 5px;
+        padding: auto 0;
+        border: 0;
+        font-weight: 500;
+        font-size: 16px;
+        color: #FFFFFF;
+        width: 120px;
+        height: 35px;
+        opacity: .95;
+        &.red { background: linear-gradient(180deg, #B62C2C 0%, #F34848 100%);;}
+        &.green { background: linear-gradient(180deg, #28AB08 0%, rgba(67, 182, 182, 0.74) 100%), #00BC4B;;}
+    }
+
+}
